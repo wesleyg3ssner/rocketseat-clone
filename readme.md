@@ -3,19 +3,18 @@
 <img src="./demo/clone-rocketseat.png"/>
 
 
+Teste aqui: https://clone-rocketseat-site.vercel.app/
+
 Projeto desenvolvido para fins educacionais!
 
-<br>
-
 ## Tecnologias
-<hr>
+
 
 - HTML
 - SASS
 
-<br>
-
 ### Author
-<hr>
+----
+https://clone-rocketseat-site.vercel.app/
 
 ##### Wesley Gessner
