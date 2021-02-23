@@ -1,0 +1,27 @@
+.hero {
+    @include flex(none);
+    margin: 5rem auto;
+
+    h2 {
+        margin-bottom: 1rem;
+        font-size: 2.2rem;
+    }
+
+    p {
+        color: lighten($primary-color, 15);
+        margin-bottom: 2rem;
+        font-size: 1.2rem;
+    }
+
+    a {
+        font-weight: 600;
+        padding: 0.7rem 2rem;
+        border-radius: 5px;
+        background-color: $primary-color;
+        color: $primary-text;
+
+        &:hover {
+            background-color: lighten($primary-color, 5);
+        }
+    }
+}

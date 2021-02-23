@@ -1,0 +1,31 @@
+header {
+    background-color: $primary-color;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    img {
+        width: 150px;
+        padding: 15px 0;
+    }
+
+    ul {
+        display: flex;
+
+        li {
+            padding: 25px;
+
+            &:hover {
+                background-color: lighten($primary-color, 10);
+
+                transition: background 0.3s ease 0.3s;
+            }
+
+            a {
+                color: $primary-text;
+                font-size: 0.8rem;
+                font-weight: lighter;
+            }
+        }
+    }
+}
