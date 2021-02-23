@@ -15,6 +15,5 @@ Projeto desenvolvido para fins educacionais!
 
 ### Author
 ----
-https://clone-rocketseat-site.vercel.app/
 
 ##### Wesley Gessner
