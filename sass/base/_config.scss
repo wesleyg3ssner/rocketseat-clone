@@ -15,7 +15,6 @@ $secondary-text: #000000;
 
 h2 {
     font-size: 32px;
-    color: $secondary-text;
 }
 @mixin flex($isMarginAuto) {
     @if $isMarginAuto == isAuto {
