@@ -3,26 +3,23 @@ $secondary-color: #ffffff;
 $primary-text: #ffffff;
 $secondary-text: #000000;
 
+html {
+    font-size: 62.5%;
+}
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
-    font-size: 16px;
     font-family: "Source Sans Pro", sans-serif;
 }
 
-h2 {
-    font-size: 32px;
-}
-@mixin flex($isMarginAuto) {
-    @if $isMarginAuto == isAuto {
-        display: flex;
-        width: 980px;
+@mixin isResponsive($is) {
+    @if $is == isRespo {
+        width: 90%;
+        max-width: 980px;
         margin: auto;
-    } @else {
-        display: flex;
-        width: 980px;
     }
 }

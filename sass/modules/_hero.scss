@@ -1,25 +1,28 @@
 .hero {
-    @include flex(none);
-    margin: 5rem auto;
+    @include isResponsive(isRespo);
+    display: flex;
+    align-items: center;
+    margin: 8rem auto;
 
     h2 {
-        margin-bottom: 1rem;
-        font-size: 2.2rem;
+        margin-bottom: 2rem;
+        font-size: 3.6rem;
         color: lighten($secondary-text, 30);
     }
 
     p {
         color: lighten($primary-color, 15);
-        margin-bottom: 2rem;
-        font-size: 1.2rem;
+        margin-bottom: 3rem;
+        font-size: 1.8rem;
     }
 
     a {
         font-weight: 600;
-        padding: 0.7rem 2rem;
-        border-radius: 5px;
+        padding: 1.4rem 2.6rem;
+        border-radius: 0.5rem;
         background-color: $primary-color;
         color: $primary-text;
+        font-size: 1.6rem;
 
         &:hover {
             background-color: lighten($primary-color, 5);
