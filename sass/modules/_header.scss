@@ -7,6 +7,10 @@ header {
         justify-content: space-between;
         align-items: center;
 
+        .checkbox, #toggle {
+            display: none;
+        }
+
         img {
             width: 15rem;
             padding: 1.5rem 0;
