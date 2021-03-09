@@ -1,9 +1,9 @@
-# Clone Rocketseat Website
+# Rocketseat Clone Website
 
 <img src="./demo/clone-rocketseat.png"/>
 
 
-Teste aqui: https://clone-rocketseat-site.vercel.app/
+Demo: https://clone-rocketseat-site.vercel.app/
 
 Projeto desenvolvido para fins educacionais!
 
