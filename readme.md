@@ -3,7 +3,9 @@
 <img src="./demo/clone-rocketseat.png"/>
 
 
-Demo: https://clone-rocketseat-site.vercel.app/
+<a href="https://wesleygessner.github.io/rocketseat-clone" target="_blank">
+      Demo
+</a>
 
 Projeto desenvolvido para fins educacionais!
 
