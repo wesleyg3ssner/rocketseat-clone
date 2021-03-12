@@ -7,6 +7,7 @@
       Demo
 </a>
 
+---
 Projeto desenvolvido para fins educacionais!
 
 ## Tecnologias
